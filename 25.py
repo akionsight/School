@@ -10,7 +10,7 @@ for index, value in enumerate(value_list): ## Input sanitisation
         exit()
 
 
-for index, value in enumerate(value_list): ## magic 
+for index, value in enumerate(value_list): ## f****g magic 
     try:
         if value % 5 != 0 and value_list[index + 1] % 5 == 0 and len(value_list) - 1 != index:
             value_list[index] = value_list[index + 1]
