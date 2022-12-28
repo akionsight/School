@@ -13,4 +13,4 @@ for index, value in enumerate(value_list): ## Input sanitisation
 count = Counter(value_list)
 
 for key in count.keys():
-    print(f'"{key}" has been used {count[key]} time(s)') ## hello
+    print(f'"{key}" has been used {count[key]} time(s)') 
