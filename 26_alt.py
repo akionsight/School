@@ -8,7 +8,7 @@ for value in value_list:
     if value in items.keys():
         items[value] += 1
     else:
-        items[value]= 1
+        items[value] = 1
 
 for key in items.keys():
     print(f'"{key} appeared {items[key]} time(s)"')
