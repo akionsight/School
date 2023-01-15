@@ -1,7 +1,7 @@
 import numpy as np
 
-arr = np.arange(11,28,2)
+arr = np.arange(5,45,5)
 
-arr = arr.reshape(3,3)
+arr = arr.reshape(2,4)
 
 print(arr)
