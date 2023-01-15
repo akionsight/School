@@ -1,6 +1,6 @@
 import numpy as np 
 
-raw_data = input("Enter a semicolon seperated list of values (;)")
+raw_data = input("Enter a semicolon seperated list of values (;): ")
 
 values = raw_data.split(';')
 
