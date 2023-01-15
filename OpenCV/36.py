@@ -1,3 +1,5 @@
+## Crop an image and display the part left
+
 import cv2
 
 img = cv2.imread('octopus.jpg')
