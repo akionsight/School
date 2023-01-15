@@ -6,5 +6,5 @@ img = cv2.imread('octopus.jpg')
 
 height, width, color_channels = img.shape
 
-print(f"The dimensions of the image are ({height},{width}) \nThe image utilises {color_channels} colour channels")
+print(f"The dimensions of the image are ({width},{height}) \nThe image utilises {color_channels} colour channels")
 
