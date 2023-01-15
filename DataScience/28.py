@@ -6,4 +6,4 @@ values = raw_data.split(';')
 
 np_arr = np.array(values)
 
-print(f"The array is \n {np_arr}")
+print(f"The array is \n{np_arr}")
